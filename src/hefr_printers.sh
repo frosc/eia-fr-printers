@@ -28,7 +28,7 @@ get_dj_list() {
         awk '{print $1}'
 }
 
-add_printes() {
+add_printer() {
     queue=$1
     model=$2
     location=$3
