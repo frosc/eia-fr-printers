@@ -37,6 +37,7 @@ add_printer() {
     sudo lpadmin -p "${destination}" \
         -v smb://${domain}%5C${username}:${password}@${server}/${queue} \
         -m ${model} -L "HEFR ${location}" -E 
+    sudo lpadmin -p "${destination}" -o pdftops-renderer-default=pdftops
 }
 
 add_konica_printers() {
