@@ -17,7 +17,7 @@ get_ppd() {
 get_konica_list() {
     smbclient -A ${credentials} -L ${server} 2>/dev/null | \
         egrep -i 'MF_.*PS.*Bizhub' | \
-        egrep -v "MF_(HEG|FON|[A-Z][0-9])" | \
+        egrep -v "MF_(HEG|FON|Beauregard)" | \
         awk '{print $1}'
 }
 
