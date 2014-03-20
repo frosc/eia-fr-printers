@@ -9,3 +9,10 @@ Engineering and Architecture of Fribourg
 Before running this script, you should install the "ppd" file from
 the "model" directory in "/usr/share/cups/model/". The restart cups
 with "sudo restart cups" or "sudo /etc/init.d/cups restart".
+
+You should create a file Secret/hefr_credentials in your home
+directory with this data:
+
+username=firstname.lastname
+password=YOUR_VERY_SECRET_PASSWORD
+domain=sofr
