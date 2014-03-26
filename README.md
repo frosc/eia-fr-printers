@@ -14,8 +14,6 @@ with "sudo restart cups" or "sudo /etc/init.d/cups restart".
 You should create a file Secret/hefr_credentials in your home
 directory with this data:
 
-username=firstname.lastname
-
-password=YOUR_VERY_SECRET_PASSWORD
-
-domain=sofr
+    username=firstname.lastname
+    password=YOUR_VERY_SECRET_PASSWORD
+    domain=sofr
