@@ -4,15 +4,7 @@
 *LanguageEncoding: ISOLatin1
 *FileVersion: "3.2.0"
 
-*APDialogExtension: "/Library/Printers/KONICAMINOLTA/C754/PDEs/KONICA MINOLTA C754 Output.plugin"
-*APDialogExtension: "/Library/Printers/KONICAMINOLTA/C754/PDEs/KONICA MINOLTA C754 Finishing.plugin"
-*APDialogExtension: "/Library/Printers/KONICAMINOLTA/C754/PDEs/KONICA MINOLTA C754 Tray.plugin"
-*APDialogExtension: "/Library/Printers/KONICAMINOLTA/C754/PDEs/KONICA MINOLTA C754 Cover.plugin"
-*APDialogExtension: "/Library/Printers/KONICAMINOLTA/C754/PDEs/KONICA MINOLTA C754 PerPage.plugin"
-*APDialogExtension: "/Library/Printers/KONICAMINOLTA/C754/PDEs/KONICA MINOLTA C754 Stamp.plugin"
-*APDialogExtension: "/Library/Printers/KONICAMINOLTA/C754/PDEs/KONICA MINOLTA C754 ImageQuality.plugin"
-*APPrinterIconPath: "/Library/Printers/KONICAMINOLTA/C754/Icons/C754.icns"
-*cupsFilter: "application/vnd.cups-postscript 0 /Library/Printers/KONICAMINOLTA/C754/Filters/psToKMC754PS"
+*cupsFilter: "application/vnd.cups-postscript 0 /usr/share/ppd/cupsfilters/psToKMC754PS"
 
 
 *Manufacturer:  "KONICA MINOLTA"
